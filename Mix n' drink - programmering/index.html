@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix N' Drink</title>
+    <meta name="description"
+        content="Mix N' Drink - lad festen komme til dig. Alkohol leveret til døren i Aarhus, bestil inden 21:30">
+    <link rel="icon" href="img/logo-website.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ER DU OVER 18 - STARTSSIDE -->
+    <p class="clicktext"> Er du over 18?</p>
+    <p id="clickToStart" onclick="myFunction()">Ja, klik her for at fortsætte</p>
+    <div id="startBox">
+
+        <!-- HERO IMAGE -->
+        <section id="container">
+            <section id="hero-text">
+                <img class="logo" src="img/logo.png" alt="logo">
+                <h1><B>LAD FESTEN KOMME TIL DIG</B></h1>
+            </section>
+        </section>
+        <div class="linje"></div>
+
+        <!-- BILLEDE SECTION -->
+        <section class="container-koncept">
+            <section class="koncept1">
+                <img class="drinks-img" src="img/drinks2.jpeg" alt="drinks" />
+                <p>Vores lækre kombi-pakker består af enhvers yndlings-drink.
+                    Vi har nemlig både Aperol Spritz, G&T, Gin Hass, Moscow Mule, Mojito og meget, meget mere.
+                    Du har naturligvis også selv mulighed for at sammensætte dine pakker - og så har vi også Cola og
+                    andre
+                    læskedrikke til dagen derpå.
+                    Uanset om det er en hyggelig drinks-aften eller en vild forfest, baner lækre drinks vejen for en
+                    uforglemmelig aften.
+                    Find din absolut yndlingsdrink, overlad leveringen til os, og få en fremragende aften med dine
+                    venner.
+                </p>
+            </section>
+
+            <section class="koncept2">
+                <img class="drinks-img" src="img/drinks.jpg" alt="drinks" />
+                <p>Få leveret lækre drinkspakker med under 45 minutters levering til din næste fest.
+                    Med Mix N’ Drink sørger vi for, at enhver fest aldrig løber tør for lækre drikkevarer.
+                    Du skal blot læne dig tilbage, bestille din favorit-drink, og så sørger vi for at levere dem lige
+                    til
+                    din hoveddør.
+                    Hyg dig med dine venner, og overlad arbejdet til os.
+                    Med lynhurtig levering kan du komme hurtigt i gang med at mixe dine drinks med dine venner, og få en
+                    fantastisk aften.
+                </p>
+            </section>
+        </section>
+
+        <!-- KORT VIDEO -->
+        <div class="linje"></div>
+        <section class="shortVideo">
+            <video id="myVideo" loop>
+                <source src="video/video1.mov" type="video/mp4">
+            </video>
+        </section>
+
+        <!-- INFOGRAPHIC -->
+        <div class="linje"></div>
+        <section>
+            <img class="infographicmobil-img" src="img/infograpic-mobile.png" alt="infograpic order buying">
+            <img class="infograpicpc-img" src="img/infograpic-pc.png" alt="infograpic order buying">
+        </section>
+
+        <!-- KONCEPT VIDEO  -->
+        <div class="linje"></div>
+        <section class="konceptvideo">
+            <video id="videokoncept" poster="img/logo.png" controls>
+                <source src="video/konceptvideo.mp4" type="video/mp4">
+            </video>
+        </section>
+        <div class="linje"></div>
+
+        <!-- SLIDESHOW - ANBEFALINGER -->
+        <h2 class="quote_h2"> ANBEFALINGER </h2>
+        <section class="slideshow-container">
+            <section class="mySlides">
+                <p class="star"> &#9733; &#9733; &#9733; &#9733; &#9733; </p>
+                <q>Hurtig levering, god service da vi bestilte den forkerte drinkspakke. Det blev hurtigt løst uden
+                    nogen
+                    problemer!</q>
+                <p class="author">- Kasper S.</p>
+            </section>
+
+            <section class="mySlides">
+                <p class="star"> &#9733; &#9733; &#9733; &#9733; &#9733; </p>
+                <q>Super godt koncept, lækre produkter, behagelig og imødekommende service. Jeg vil anbefale dig, at
+                    bestille herfra til din næste fest hvad end det er privat eller firma. - Glæder mig til næste
+                    bestilling</q>
+                <p class="author">- Adam</p>
+            </section>
+
+            <section class="mySlides">
+                <p class="star"> &#9733; &#9733; &#9733; &#9733; &#9733; </p>
+                <q>Mega lækre produkter, hurtig levering og til en rimelig pris!</q>
+                <p class="author">- Oscar K.</p>
+            </section>
+
+            <section class="mySlides">
+                <p class="star"> &#9733; &#9733; &#9733; &#9733; &#9733; </p>
+                <q>Super god service og rigtigt lækre drinks. Havde en fantastisk aften, det kan klart anbefales!</q>
+                <p class="author">- Monique M.</p>
+            </section>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <section class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </section>
+        </section>
+
+        <!-- BILLEDE MED GIN -->
+        <div class="linje"></div>
+        <section>
+            <img class="gin-img" src="img/gin.JPG" alt="drink gin tonic">
+        </section>
+        <div class="linje"></div>
+
+        <!-- LYKKEHJUL -->
+        <h2 class="wheel-heading">Hvilken drink skal du have i aften?</h2>
+        <section class="wheel">
+            <section id="mainbox" class="mainbox">
+                <section id="box" class="box">
+                    <section class="box1">
+                        <span class="span1 span"><img class="moscowmule-img" src="img/moscowmule.png"
+                                alt="drink moscowmule spin"></span>
+                        <span class="span2 span"><img class="mojito-img" src="img/mojito.png"
+                                alt="drink mojito spin"></span>
+                        <span class="span3 span"><img class="darkandstormy-img" src="img/darkandstormy.png"
+                                alt="drink darkandstormy spin"></span>
+                        <span class="span4 span"><img class="ginandtonic-img" src="img/ginandtonic.png"
+                                alt="drink ginandtonic spin"></span>
+                    </section>
+                    <section class="box2">
+                        <span class="span1 span"><img class="spin1-img" src="img/spin.png" alt="wheel spin"></span>
+                        <span class="span2 span"><img class="spin2-img" src="img/spin.png" alt="wheel spin"></span>
+                        <span class="span3 span"><img class="ginhass-img" src="img/ginhass.png"
+                                alt="drink ginhass spin"></span>
+                        <span class="span4 span"><img class="aperolspritz-img" src="img/aperolspritz.png"
+                                alt="drink aperolspritz spin"></span>
+                    </section>
+                </section>
+                <p><i class="arrow up"></i></p>
+                <button class="spin" onclick="myfunction()">SPIN</button>
+            </section>
+        </section>
+
+        <section>
+            <p class="wheel-text">Du kan se vores udvalg af sammensatte og individuelle pakker her. <br>
+                Køb og få leveret inden for blot 45 minutter.
+            </p>
+            <a href="https://mixndrink.dk/alkohol/" class="btn">Se udvalget her</a>
+        </section>
+
+        <!-- FOOTER -->
+        <div class="linje"></div>
+        <footer class="footer">
+            <section class="footer-left">
+                <img class="logo-footer" src="img/logo.png" alt="logo">
+
+                <p class="footer-links">
+                    <a href="https://mixndrink.dk/kontakt/">KONTAKT</a>
+                    |
+                    <a href="https://mixndrink.dk/faq/">FAQ</a>
+                    |
+                    <a href="https://mixndrink.dk/handelsbetingelser/">HANDELSBETINGELSER</a>
+                </p>
+            </section>
+
+            <section class="footer-center">
+                <section>
+                    <p class="phone">+45 25 54 24 50</p>
+                </section>
+                <section>
+                    <p class="mail">mixndrinkaarhus@gmail.com</p>
+                </section>
+            </section>
+            <section class="footer-right">
+                <p class="footer-company-about">
+                    Mix N' Drink tilbyder hurtig levering af lækre drinks til enhver anledning.</p>
+                <section class="footer-icons">
+                    <a href="https://www.instagram.com/mixndrinkaarhus/"><img src="img/instagram-ikon.png" class="ikon"
+                            alt="instagram icon"></a>
+                    <a href="https://www.facebook.com/mixndrink"><img src="img/facebook-ikon.png" class="ikon"
+                            alt="facebook icon"></a>
+                    <a href="https://www.linkedin.com/company/mix-n-drink/about/"><img src="img/linkedin-ikon.png"
+                            class="ikon" alt="linkedin icon"></a>
+                </section>
+            </section>
+        </footer>
+        <div class="linje-footer"></div>
+        <section>
+            <p class="footer-company-name">© 2021 MIX N' DRINK </p>
+            <p class="copyright"> Copyright -
+                Amalie Sofienberg Vinther,
+                Signe Juel,
+                Lise-May Lisbjerg Byfuglien &
+                Camilla Nørgaard</p>
+        </section>
+        <script src="js/script.js"></script>
+    </div>
+</body>
+
+</html>
